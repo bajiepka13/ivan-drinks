@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const CHILD = 'ivan'
-const FAMILY_API_URL = 'http://192.168.0.104:8080'
+const FAMILY_API_URL = 'https://milkdrinker.herokuapp.com:8080'
 const MILKING_API_URL = `${FAMILY_API_URL}/family/${CHILD}`
 
 class MilkingDataService {
