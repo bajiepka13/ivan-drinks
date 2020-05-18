@@ -1,1 +1,1 @@
-web: bin/boot
+web: node src/App.js
